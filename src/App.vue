@@ -3,6 +3,7 @@ import TheHeader from "@/components/TheHeader.vue";
 import ProductCard from "@/components/ProductCard.vue";
 import { useProduct } from "./stores/ProductStore";
 const productStore = useProduct();
+productStore.fill()
 </script>
 
 <template>
