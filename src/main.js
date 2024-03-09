@@ -13,7 +13,7 @@ import AppModalOverlay from "./components/AppModalOverlay.vue";
 
 // Init App
 createApp(App)
-  .use(createPinia)
+  .use(createPinia())
   .use(FontAwesomePlugin)
   .component("AppButton", AppButton)
   .component("AppCountInput", AppCountInput)
